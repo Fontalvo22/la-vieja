@@ -1,0 +1,11 @@
+@import url("./base.css");
+@import url("./boxs.css");
+.app-interaction-container {
+    width: 40%;
+}
+
+.circle {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}

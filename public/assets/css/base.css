@@ -1,0 +1,44 @@
+:root {
+    --super-dark: #11222a;
+    --app-yellow: #f2b237;
+    --yellow-border: #c98b12;
+    --ligth-blue: #32c3bc;
+    --dark-blue: #118c87;
+}
+
+main {
+    background-color: #192a32;
+    height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.app-interaction-container {
+    width: 50%;
+}
+
+.super-dark-text {
+    color: var(--super-dark) !important;
+}
+
+.btn {
+    height: unset !important;
+}
+
+.row {
+    width: 100%;
+}

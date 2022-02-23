@@ -1,0 +1,53 @@
+@import url("./boxs.css");
+@import url("./base.css");
+
+/* seleccionar el circulo o la equis */
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.game-title {
+    font-size: 16px;
+    color: #a8bec9;
+    font-weight: 700;
+    text-align: center;
+}
+
+.new-game-container {
+    margin-top: 60px;
+}
+
+.select-simbol {
+    color: #a8bec9 !important;
+    font-weight: 700;
+    font-size: 40px !important;
+}
+
+.select-simbol.active {
+    background-color: #a8bec9 !important;
+    color: #11222a !important;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    border-radius: 10px !IMPORTANT;
+    overflow: hidden;
+    margin-right: 10px !important;
+}
+
+.tabs-container {
+    background-color: #11222a;
+    padding: 10px !important;
+}
+
+.tabs {
+    background-color: #11222a;
+}
+
+.tabs .indicator {
+    display: none !important;
+}

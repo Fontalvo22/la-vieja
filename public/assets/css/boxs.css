@@ -1,0 +1,50 @@
+.box-with-border-bottom {
+    /* border: 1px solid red; */
+    /* box-shadow: 0px 10px 5px 0px #11222a; */
+    border-bottom: 8px solid var(--super-dark);
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #1f3540;
+}
+
+.box {
+    display: block;
+    border-radius: 10px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.yellow-box {
+    background-color: var(--app-yellow);
+    border-bottom: 5px solid var(--yellow-border);
+    padding: 10px;
+    color: var(--super-dark);
+    font-weight: 700;
+    /* font-size: 20px; */
+}
+
+.yellow-box:hover {
+    background-color: var(--app-yellow);
+}
+
+.blue-box {
+    margin-top: 40px;
+    background-color: var(--ligth-blue);
+    border-bottom: 5px solid var(--dark-blue);
+    padding: 10px;
+    color: var(--super-dark);
+    font-weight: 700;
+    /* font-size: 20px; */
+}
+
+.blue-box:hover {
+    background-color: var(--ligth-blue);
+}
+
+.blue-box p,
+.yellow-box p {
+    margin: 0px !important;
+}
